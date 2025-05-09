@@ -206,5 +206,3 @@ def analyze_uml(xml_text: str) -> str:
     prompt = build_prompt(xml_text, context)
     feedback = query_groq(prompt)
     return feedback
-
-#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
