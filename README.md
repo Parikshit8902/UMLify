@@ -16,10 +16,11 @@ The Repo consists of the following files/folders along with their functionalitie
 3. /static/index.html: Frontend
 4. /md_UML_class_diagrams: UML class diagrams dataset containing Markdown files
 
-To run the webapp, perform the following steps:
+To run the application, perform the following steps:
 1. Download the repo contents and save all the files in a single location.
 2. In app.py, set the path of static as well as drawio directories according to the local path of your system.
 3. In RAG.py, if you have generated your own API key, then replace it with your own key.
-4. In RAG.py, set the path of m
+4. In RAG.py, set the path of dataset in DATASET_PATH accoriding to your local path.
+5. Run app.py, and then open the link at the end of the file
 
 
