@@ -1,36 +1,41 @@
 UMLify ✨
 
-Draw UML Class Diagrams & Get AI-Powered Feedback! 🚀
+UMLify - Draw UML class diagrams and Get AI Feedback! 🚀
 
-UMLify is a dynamic webapp designed to make creating and understanding UML class diagrams a breeze! 📊 
-Whether you're learning or teaching, UMLify simplifies the process by letting you draw UML class diagrams and receive intelligent, constructive feedback powered by AI. 🧠
+UMLify is an webapp, where users can draw UML class diagrams, and get feedback on it. The aim of this webapp is to simplify the process of Teaching as well as interpreting UML class diagrams, along with providing constructive feedback on it. 📚
 
-Features 🌟
-1. Intuitive Drawing Interface: We've integrated the powerful draw.io interface, giving you access to all its tools to craft UML class diagrams effortlessly. ✏️
-2. AI-Driven Feedback: Our app leverages the Llama-3.3-70B model via the Groq API to provide insightful suggestions and feedback on your diagrams. 🤖
-3. Enhanced with RAG: Using Retrieval Augmented Generation (RAG), UMLify analyzes a dataset of 123 UML class diagram Markdown files to deliver precise and context-aware feedback. 📚
+We have integrated draw.io interface into our Webapp, providing users the entire functionality of draw.io, helping them create UML class diagrams with ease. 🎨
 
-Repository Structure 📂
-The repository includes the following files and folders, each with a specific role:
+To provide suggestions and constructive feedback on the class diagrams, we have utilised the capabilities of Llama-3.3-70B model, which we are calling using Groq API. 🤖
 
-1. RAG.py 🛠️: Implements RAG and handles API calls to the AI model.
-2. app.py 🌐: Connects the frontend and backend to power the webapp.
-3. /static/index.html 🎨: The frontend interface for drawing and interaction.
-4. /md_UML_class_diagrams 📖: Dataset of 123 UML class diagrams in Markdown format.
-   
-Getting Started 🚀
-Follow these steps to run UMLify on your system:
+To further enhance the output, we have implemented RAG (Retrieval Augmented Generation), which provides output studying a database consisting of 123 UML class diagram files in Markdown format. 📊
 
-1. Clone the Repository 📥: Download all repo contents and store them in a single folder.
-2. Configure Paths in app.py 🛤️: Update the paths for the static and drawio directories to match your local system.
-3. Set API Key in RAG.py 🔑: Replace the default API key with your own (if applicable).
-4. Update Dataset Path in RAG.py 📍: Set the DATASET_PATH to the location of the md_UML_class_diagrams folder on your system.
-5. Run the App 🏃: Execute app.py, then open the provided link (e.g., http://127.0.0.1:5500) in your web browser.
-6. Draw Your Diagram ✍️: Use the draw.io interface to create your UML class diagram.
-7. Save Your Diagram 💾: Go to File > Save As in the draw.io interface, name your file (e.g., filename.drawio), select XML File (.drawio), choose Device in the "Where" dropdown, and save it locally.
-8. Get AI Feedback 🧠: In the "Upload Uncompressed Draw.io XML for AI Feedback" section, upload your saved .drawio file and click Get AI Feedback.
-   
-Shutting Down 🔌
-To stop the webapp:
-1. Close your browser. 🌐
-2. In the terminal running app.py, press Ctrl + C. 🛑
+The Repo consists of the following files/folders along with their functionalities:
+
+RAG.py: RAG implementation, calling model using API. 🛠️
+
+app.py: Webapp interface corelating Frontend and Backend. 🌐
+
+/static/index.html: Frontend 🎨
+
+/md_UML_class_diagrams: UML class diagrams dataset containing Markdown files 📂
+
+To run the application, perform the following steps:
+
+Download the repo contents and save all the files in a single location. 📥
+
+In app.py, set the path of static as well as drawio directories according to the local path of your system. 🛤️
+
+In RAG.py, if you have generated your own API key, then replace it with your own key. 🔑
+
+In RAG.py, set the path of dataset in DATASET_PATH accoriding to your local path. 📍
+
+Run app.py, and then open the link at the end of the file (http://127.0.0.1:5500) on your web-browser. 🏃
+
+Now you should see the interface on your system. You can draw UML class diagrams in the interface. ✍️
+
+To save the UML class diagram, save it as a draw.io XML on your system. For that, in draw.io interface, go to File -> Save As -> Enter filename.drawio and type of file "XML File (.drwaio)", and save it on your device by selecting "Device" in the "Where" dropdown menu. 💾
+
+Now, to get feedback on the UML class diagram, in "Upload Uncompressed Draw.io XML for AI Feedback" section, choose the downloaded file and click "Get AI Feedback" button. 🧠
+
+To close the webapp, first close the browser, and then in terminal of app.py, press Ctrl + c. 🛑
