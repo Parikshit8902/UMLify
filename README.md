@@ -21,6 +21,12 @@ To run the application, perform the following steps:
 2. In app.py, set the path of static as well as drawio directories according to the local path of your system.
 3. In RAG.py, if you have generated your own API key, then replace it with your own key.
 4. In RAG.py, set the path of dataset in DATASET_PATH accoriding to your local path.
-5. Run app.py, and then open the link at the end of the file
+5. Run app.py, and then open the link at the end of the file (http://127.0.0.1:5500) or you can just opn localhost on your web-browser.
+6. Now you should see the interface on your system. You can draw UML class diagrams in the interface.
+7. To save the UML class diagram, save it as a draw.io XML on your system. For that, in draw.io interface, go to File -> Save As -> Enter filename.drawio and type of file "XML File (.drwaio)", and save it on your device by selecting "Device" in the "Where" dropdown menu.
+8. Now, to get feedback on the UML class diagram, in "Upload Uncompressed Draw.io XML for AI Feedback" section, choose the downloaded file and click "Get AI Feedback" button.
+
+To close the webapp, first close the browser, and then in terminal of app.py, press Ctrl+c.
+
 
 
