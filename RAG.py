@@ -8,16 +8,16 @@ from sklearn.metrics.pairwise import cosine_similarity
 import requests
 
 # Groq API setup
-GROQ_API_KEY = "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"  # Replace with your actual Groq API key
+GROQ_API_KEY = "API_KEY"  # Replace with your actual Groq API key
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # Paths to pretrained model and dataset
-MODEL_PATH = "C:/Users/Student/Models/qwen2.5-coder-0.5b-Instruct/models--Qwen--Qwen2.5-Coder-0.5B-Instruct/snapshots/ea3f2471cf1b1f0db85067f1ef93848e38e88c25"  # Optional, for tokenizer
+#MODEL_PATH = "C:/Users/Student/Models/qwen2.5-coder-0.5b-Instruct/models--Qwen--Qwen2.5-Coder-0.5B-Instruct/snapshots/ea3f2471cf1b1f0db85067f1ef93848e38e88c25"  # Optional, for tokenizer
 DATASET_PATH = "C:/Users/Student/Desktop/ASE_Proj/Uncompressed_format/md_UML_class_diagrams"  # Update with your dataset path
 
 # Load tokenizer (optional, for consistency with Qwen)
-tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH) if os.path.exists(MODEL_PATH) else None
+#tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH) if os.path.exists(MODEL_PATH) else None
 
 # Load and process UML dataset
 def load_uml_dataset(dataset_path):
