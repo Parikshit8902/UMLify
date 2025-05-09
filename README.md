@@ -1,6 +1,4 @@
-UMLify ✨
-
-UMLify - Draw UML class diagrams and Get AI Feedback! 🚀
+UMLify ✨ - Draw UML class diagrams and Get AI Feedback! 🚀
 
 UMLify is an webapp, where users can draw UML class diagrams, and get feedback on it. The aim of this webapp is to simplify the process of Teaching as well as interpreting UML class diagrams, along with providing constructive feedback on it. 📚
 
