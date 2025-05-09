@@ -6,7 +6,7 @@ We have integrated draw.io interface into our Webapp, providing users the entire
 
 To provide suggestions and constructive feedback on the class diagrams, we have utilised the capabilities of Llama-3.3-70B model, which we are calling using Groq API. 🤖
 
-To further enhance the output, we have implemented RAG (Retrieval Augmented Generation), which provides output studying a database consisting of 123 UML class diagram files in Markdown format. 📊
+To further enhance the output, we have implemented RAG (Retrieval Augmented Generation), which provides output studying a database consisting of 126 UML class diagram files in Markdown format. 📊
 
 The Repo consists of the following files/folders along with their functionalities:
 
