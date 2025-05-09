@@ -17,7 +17,7 @@ The Repo consists of the following files/folders along with their functionalitie
 
 To run the application, perform the following steps:
 
-1. Download the repo contents and save all the files in a single location. 📥
+1. Download the repo contents and save all the files at a single location. 📥
 2. In app.py, set the path of static as well as drawio directories according to the local path of your system. 🛤️
 3. In RAG.py, if you have generated your own API key, then replace it with your own key. 🔑
 4. In RAG.py, set the path of dataset in DATASET_PATH accoriding to your local path. 📍
