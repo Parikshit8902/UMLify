@@ -21,7 +21,9 @@ pip install -r requirements.txt
 If any library is missing, then just type in the terminal:
 pip install library_name
 
-After installing the main ZIP file, unzip its contents. Also make sure to unzip static, drawio-26.1.0 and md_UML_class_diagrams files.
+After installing the main ZIP file, unzip its contents. Also make sure to unzip 'static', 'drawio-26.1.0' and 'md_UML_class_diagrams' files.
+
+To enhance the output even further, you can add as many UML class diagrams to the dataset as you wish. Make sure that the class diagrams you are adding are of plant UML format (Markdown files).
 
 To run the application, perform the following steps:
 
