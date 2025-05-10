@@ -13,8 +13,8 @@ GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # Paths to pretrained model and dataset
-#MODEL_PATH = "C:/Users/Student/Models/qwen2.5-coder-0.5b-Instruct/models--Qwen--Qwen2.5-Coder-0.5B-Instruct/snapshots/ea3f2471cf1b1f0db85067f1ef93848e38e88c25"  # Optional, for tokenizer
-DATASET_PATH = "C:/Users/Student/Desktop/ASE_Proj/Uncompressed_format/md_UML_class_diagrams"  # Update with your dataset path
+#MODEL_PATH = "Path_To_snapshpts_directory_of_model"  # Optional, for tokenizer
+DATASET_PATH = "Path_To_Dataset"  # Update with your dataset path
 
 # Load tokenizer (optional, for consistency with Qwen)
 #tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH) if os.path.exists(MODEL_PATH) else None
