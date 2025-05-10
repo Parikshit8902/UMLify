@@ -10,8 +10,8 @@ from RAG import analyze_uml
 app = FastAPI()
 
 # Directory setup
-static_dir = r"C:\Users\Student\Desktop\ASE_Proj\Uncompressed_format\static"
-drawio_dir = r"C:\Users\Student\Desktop\ASE_Proj\Uncompressed_format\drawio-26.1.0\drawio-26.1.0"
+static_dir = r"Path_To Static_Directory"
+drawio_dir = r"Path_To_Draw.io_Directory"
 
 if not os.path.exists(static_dir):
     raise RuntimeError(f"Static directory '{static_dir}' does not exist.")
