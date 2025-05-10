@@ -15,6 +15,12 @@ The Repo consists of the following files/folders along with their functionalitie
 3. /static/index.html: Frontend 🎨
 4. /md_UML_class_diagrams: UML class diagrams dataset containing Markdown files 📂
 
+Check if you have the python libraries mentioned in requirements.txt installed on your system. Otherwise you can run the following command in your terminal:
+pip install -r requirements.txt
+
+If any library is missing, then just type in the terminal:
+pip install library_name
+
 To run the application, perform the following steps:
 
 1. Download the repo contents and save all the files at a single location. 📥
