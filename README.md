@@ -21,6 +21,8 @@ pip install -r requirements.txt
 If any library is missing, then just type in the terminal:
 pip install library_name
 
+After installing the main ZIP file, unzip its contents. Also make sure to unzip static, drawio-26.1.0 and md_UML_class_diagrams files.
+
 To run the application, perform the following steps:
 
 1. Download the repo contents and save all the files at a single location. 📥
