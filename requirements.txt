@@ -1,1 +1,5 @@
-numpy scikit-learn requests fastapi uvicorn
+numpy 
+scikit-learn 
+requests 
+fastapi 
+uvicorn
