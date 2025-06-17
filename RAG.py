@@ -20,13 +20,13 @@ DATASET_PATH = "Path_To_Dataset"  # Update with your dataset path
 #tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH) if os.path.exists(MODEL_PATH) else None
 
 # Load and process UML dataset
-def load_uml_dataset(dataset_path):
+def load_uml_dataset(DATASET_PATH):
     uml_diagrams = []
     file_names = []
     
-    for file_name in os.listdir(dataset_path):
+    for file_name in os.listdir(DATASET_PATH):
         if file_name.endswith('.markdown'):
-            file_path = os.path.join(dataset_path, file_name)
+            file_path = os.path.join(DATASET_PATH, file_name)
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
                 uml_blocks = re.findall(r'```(?:plantuml|uml)\n(.*?)\n```', content, re.DOTALL)
